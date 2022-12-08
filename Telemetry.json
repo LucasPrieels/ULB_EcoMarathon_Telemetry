@@ -1,0 +1,158 @@
+{
+    "frameEnd": "*/",
+    "frameStart": "/*",
+    "groups": [
+        {
+            "datasets": [
+                {
+                    "alarm": 100,
+                    "fft": false,
+                    "fftSamples": 1024,
+                    "graph": false,
+                    "led": false,
+                    "log": false,
+                    "max": 100,
+                    "min": 0,
+                    "title": "Data packet counter",
+                    "units": "packet #",
+                    "value": "%1",
+                    "widget": ""
+                },
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 1024,
+                    "graph": false,
+                    "led": false,
+                    "log": false,
+                    "max": 0,
+                    "min": 0,
+                    "title": "GPS packet counter",
+                    "units": "packet #",
+                    "value": "%2",
+                    "widget": ""
+                }
+            ],
+            "title": "Transmission health",
+            "widget": ""
+        },
+        {
+            "datasets": [
+                {
+                    "alarm": 100,
+                    "fft": false,
+                    "fftSamples": 1024,
+                    "graph": true,
+                    "led": false,
+                    "log": false,
+                    "max": 100,
+                    "min": 0,
+                    "title": "Potentiometer",
+                    "units": "%",
+                    "value": "%3",
+                    "widget": "gauge"
+                },
+                {
+                    "alarm": 30,
+                    "fft": false,
+                    "fftSamples": 1024,
+                    "graph": true,
+                    "led": false,
+                    "log": false,
+                    "max": 30,
+                    "min": 0,
+                    "title": "Current",
+                    "units": "A",
+                    "value": "%4",
+                    "widget": "bar"
+                }
+            ],
+            "title": "Electrical measurements",
+            "widget": ""
+        },
+        {
+            "datasets": [
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 1024,
+                    "graph": false,
+                    "led": false,
+                    "log": false,
+                    "max": 0,
+                    "min": 0,
+                    "title": "Latitude",
+                    "units": "°",
+                    "value": "%5",
+                    "widget": "lat"
+                },
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 1024,
+                    "graph": false,
+                    "led": false,
+                    "log": false,
+                    "max": 0,
+                    "min": 0,
+                    "title": "Longitude",
+                    "units": "°",
+                    "value": "%6",
+                    "widget": "lon"
+                },
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 1024,
+                    "graph": false,
+                    "led": false,
+                    "log": false,
+                    "max": 0,
+                    "min": 0,
+                    "title": "Altitude",
+                    "units": "/",
+                    "value": "%7",
+                    "widget": "alt"
+                }
+            ],
+            "title": "GPS",
+            "widget": "map"
+        },
+        {
+            "datasets": [
+                {
+                    "alarm": 50,
+                    "fft": false,
+                    "fftSamples": 1024,
+                    "graph": true,
+                    "led": false,
+                    "log": false,
+                    "max": 50,
+                    "min": 0,
+                    "title": "Speed",
+                    "units": "km/h",
+                    "value": "%8",
+                    "widget": "gauge"
+                },
+                {
+                    "alarm": 20,
+                    "fft": false,
+                    "fftSamples": 1024,
+                    "graph": true,
+                    "led": false,
+                    "log": false,
+                    "max": 20,
+                    "min": 0,
+                    "title": "Acceleration",
+                    "units": "m/s^2",
+                    "value": "%9",
+                    "widget": ""
+                }
+            ],
+            "title": "Speed",
+            "widget": ""
+        }
+    ],
+    "separator": ",",
+    "title": "Telemetry"
+}
